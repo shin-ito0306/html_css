@@ -229,3 +229,11 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  main {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+}
