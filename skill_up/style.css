@@ -79,7 +79,6 @@ ul {
 }
 
 .heading {
-  margin-bottom: 30px;
   font-size: 32px;
   color: #000000;
   text-align: center;
@@ -96,7 +95,7 @@ ul {
 
 .heading-text {
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .production-group {
@@ -118,11 +117,11 @@ ul {
 }
 
 .production:nth-child(2) {
-  background-image: url(img-2/talk.jpg);
+  background-image: url(img-2/websuku.png);
 }
 
 .production:nth-child(3) {
-  background-image: url(img-2/webcamp-mother.png);
+  background-image: url(img-2/write.jpg);
 }
 
 .production:nth-child(4) {
@@ -131,12 +130,12 @@ ul {
 }
 
 .production:nth-child(5) {
-  background-image: url(img-2/websuku.png);
+  background-image: url(img-2/talk.jpg);
   margin-right: 10px;
 }
 
 .production:nth-child(6) {
-  background-image: url(img-2/write.jpg);
+  background-image: url(img-2/webcamp-mother.png);
 }
 
 .production:nth-child(-n + 2) {
@@ -217,6 +216,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding-top: 30px;
 }
 
 .left-contact-content {
@@ -284,5 +284,80 @@ footer {
 
   nav {
     display: none;
+  }
+
+  #mv {
+    background-image: url(img-2/code.png);
+  }
+
+  .main-visual-title {
+    font-size: 40px;
+  }
+
+  .main-visual-body {
+    font-size: 18px;
+  }
+
+  .production-group {
+    width: 300px;
+  }
+
+  .production {
+    margin-bottom: 10px;
+  }
+
+  .production:nth-child(odd) {
+    display: none;
+  }
+
+  .production:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .strength-group {
+    width: 320px;
+  }
+
+  .strength:first-child {
+    margin-top: 0;
+  }
+
+  .strength {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .left-content {
+    width: 100%;
+  }
+
+  .right-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .description-title {
+    margin-top: 20px;
+  }
+
+  .contact-group {
+    width: 100%;
+  }
+
+  .left-contact-content {
+    text-align: center;
+  }
+
+  .right-contact-content {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .mail {
+    margin-top: 0;
+  }
+
+  .sns {
+    margin-top: 0;
   }
 }
