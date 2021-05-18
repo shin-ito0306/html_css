@@ -13,6 +13,8 @@ header {
 .container {
   width: 1024px;
   margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .header-group {
@@ -20,6 +22,7 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 a {
@@ -58,6 +61,10 @@ ul {
   padding-top: 200px;
 }
 
+.mv-title {
+  padding: 0;
+}
+
 .main-visual-title {
   font-size: 64px;
   margin-bottom: 10px;
@@ -69,11 +76,9 @@ ul {
 
 #portfolio {
   background-color: #eceff1;
-  padding: 90px 0;
 }
 
 .heading {
-  padding-top: 90px;
   margin-bottom: 30px;
   font-size: 32px;
   color: #000000;
@@ -166,4 +171,78 @@ ul {
   text-align: left;
   font-size: 16px;
   color: #000000;
+}
+
+#profile {
+  background-color: #eceff1;
+  padding: 90px auto;
+}
+
+.profile-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.my-icon {
+  background-image: url(img-2/my-icon.jpg);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.right-content {
+  width: 50%;
+}
+
+.description-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.description-title:nth-child(3) {
+  margin-top: 20px;
+}
+
+.description-text {
+  font-size: 16px;
+}
+
+.contact-group {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.left-contact-content {
+  margin: 0 auto;
+  width: 130px;
+}
+
+.right-contact-content {
+  margin: 0 auto;
+  width: 180px;
+}
+
+.right-contact-content .fa {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.right-contact-content .fa:last-child {
+  margin-right: 0;
+}
+
+footer {
+  background-color: #ec715f;
+  font-size: 16px;
+  color: #fafafa;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
 }
